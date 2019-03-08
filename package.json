@@ -1,0 +1,8 @@
+{
+  "name": "git-playground",
+  "version": "0.0.1",
+  "author": "Aaron Houlihan",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
