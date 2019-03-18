@@ -11,6 +11,14 @@ app.get('/master1', (req, res) => {
   res.status(200).send('master1')
 })
 
+app.get('/branch-a-1', (req, res) => {
+  res.status(200).send('branch-a-1')
+})
+
+app.get('/branch-a-2', (req, res) => {
+  res.status(200).send('branch-a-2')
+})
+
 const port = 1337
 
 app.listen(port, (err) => {
